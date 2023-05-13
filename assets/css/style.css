@@ -30,10 +30,12 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+/* Border of the teaching table */
 .resume-item
-{
-        border:1px solid  #FFFFFF;
-}
+	{
+        border:3px solid  #FFFFFF;
+        border-spacing:5px;/*cellspacing:poor IE support for  this*/
+    }
 
 /* Brightness-zoom Container */
 .brightness-img img {
